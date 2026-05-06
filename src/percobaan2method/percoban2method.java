@@ -30,7 +30,7 @@ public class percoban2method {
     }
     
     public static void main(String[] args) {//method main untuk program yang memerlukan output
-        percoban2method alatiqbal = new percoban2method();
+        percoban2method iqbal = new percoban2method();
         /*judulnya*/System.out.println("MENGHITUNG VOLUME BANGUN RUANG BERBASIS LINGKARAN\n1. Tabung\n2. Kerucut\n3. Bola");
         /*import scanner*/Scanner firamasuk = new Scanner(System.in);
         //deklarasi inti, bahan utama dari bangun ruang basis lingkaran
@@ -38,6 +38,13 @@ public class percoban2method {
         double r = firamasuk.nextDouble();
         System.out.print("Tinggi Bangun Ruangnya?\t : ");
         double t = firamasuk.nextDouble();
+
+        //kita perlu deklarasikan variabel baru, kemudian diberikan nilai dari method sebelumnya
+        double bulat = iqbal.l_bulat(r); //untuk menampilkan operasi bangun bulat, menampilkan nilai luas lingkaran yang disimpan di methodl_bulat sebelumnya
+        double bola = iqbal.v_bola(r); //meunjukkan hasil perhitungan volume bola dari return v_bola
+        double tabung = iqbal.vtabung(r, t); //mengeluarkan nilai volem tabung dari method v_tabung
+        double kerucut = iqbal.vkerucut(r, t); //tampilkan kerucut, dengan nilai volume kerucut dari method v_kerucut
+     
         
     }
 }
