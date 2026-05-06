@@ -5,9 +5,10 @@ public class percobaan3methodjop {
         //ini deklarasi untuk variabel utama yang akan digunakan pada method operasi
         double p,l,a,t,r;
     }
+    
     //kita awali dengan method operasi dulu
     //persegi panjang dulu
-    //segitiga
-    //lingkaran
-    
+    double lpp(double p, double l){
+        return (p*l);
+    }
 }
