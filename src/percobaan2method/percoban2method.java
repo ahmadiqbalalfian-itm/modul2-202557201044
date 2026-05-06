@@ -47,6 +47,7 @@ public class percoban2method {
 
         System.out.println(">>>>>>>>VOLUME BANGUN RUANG<<<<<<<<<");
         System.out.println("VOLUME BOLA = " +bola);
+        System.out.println("VOLUME TABUNG = " +tabung);
         
         
         System.out.println("Bonus luas lingkaran= " +bulat);
