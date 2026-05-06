@@ -46,9 +46,9 @@ public class percoban2method {
         double kerucut = iqbal.vkerucut(r, t); //tampilkan kerucut, dengan nilai volume kerucut dari method v_kerucut
 
         System.out.println(">>>>>>>>VOLUME BANGUN RUANG<<<<<<<<<");
-        System.out.println("VOLUME BOLA = " +bola);
-        System.out.println("VOLUME TABUNG = " +tabung);
-        
+        System.out.println("VOLUME BOLA = " + bola);
+        System.out.println("VOLUME TABUNG = " + tabung);
+        System.out.println("VOLUME KERUCUT = " + kerucut);
         
         System.out.println("Bonus luas lingkaran= " +bulat);
         
