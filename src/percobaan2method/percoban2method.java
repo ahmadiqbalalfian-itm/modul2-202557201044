@@ -36,4 +36,5 @@ public class percoban2method {
         double v = l*t;//rumusnya biar agak pendek. 3 harus dikasih koma karena double
         return v;//simpan volume keurucut
     }
+    
 }
