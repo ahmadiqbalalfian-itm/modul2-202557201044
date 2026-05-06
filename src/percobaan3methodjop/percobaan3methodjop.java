@@ -39,6 +39,6 @@ public class percobaan3methodjop {
         double lingkaran = fira.lbulat(r);
         
         //menampilkan hasil operasi
-        JOptionPane.showMessageDialog(null,("LUAS PERSEGI PANJANG\t= "+String.format("%f2",persegipanjang)+"\nLUAS SEGITIGA\t= "+String.format("%f2",segitiga)+"\nLUAS LINGKARAN\t= "+String.format("%f2",lingkaran)),"HASIL AKHIR",(1));
+        JOptionPane.showMessageDialog(null,("LUAS PERSEGI PANJANG\t= "+String.format("%.2f",persegipanjang)+"\nLUAS SEGITIGA\t= "+String.format("%.2f",segitiga)+"\nLUAS LINGKARAN\t= "+String.format("%.2f",lingkaran)),"HASIL AKHIR",(1));
     }
 }
