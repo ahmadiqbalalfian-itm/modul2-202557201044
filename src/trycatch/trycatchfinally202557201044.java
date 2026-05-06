@@ -13,7 +13,7 @@ public class trycatchfinally202557201044 {
         try{
             System.out.println(b[3]);
         }catch (ArrayIndexOutOfBoundsException i){
-            System.out.println("Error, panjang arraynya ngga kelebihan");
+            System.out.println("ERROR! panjang arraynya kelebihan, ngga segitu");
             System.out.println(i.getMessage());
         }
     }
