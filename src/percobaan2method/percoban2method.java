@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class percoban2method {
 
     public static void main(String[] args) {
-        percoban2method iqbal = new percoban2method();
+        percoban2method alatiqbal = new percoban2method();
         
     }
 }
