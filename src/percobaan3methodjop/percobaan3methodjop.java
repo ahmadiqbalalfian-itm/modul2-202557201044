@@ -38,6 +38,7 @@ public class percobaan3methodjop {
         double segitiga = fira.lst(a, t);
         double lingkaran = fira.lbulat(r);
         
-        
+        //menampilkan hasil operasi
+        JOptionPane.showMessageDialog(null,("LUAS PERSEGI PANJANG\t= "+persegipanjang+"\nLUAS SEGITIGA\t= "+segitiga+"\nLUAS LINGKARAN\t= "+lingkaran),"<><><>HASIL AKHIR<><><>",(1));
     }
 }
