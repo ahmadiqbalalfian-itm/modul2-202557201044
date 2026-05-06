@@ -12,6 +12,16 @@ public class percoban2method {
         double r = firamasuk.nextDouble();
         
         System.out.print("Tinggi Bangun Ruangnya?\t : ");
-        double t = 
+        double t = firamasuk.nextDouble();
+        
     }
+    
+    //kita masukkan rumus-rumus untuk setiap bangun ruang
+    //lingkaran lebih dulu karena basisnya
+    double l_lingkaran(double r) {
+        double l = Math.pow(r, 2)/*pangkat*/*Math.PI/*phi*/;
+        return l; //simpan luas
+    }
+    
+    
 }
