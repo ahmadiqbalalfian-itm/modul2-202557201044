@@ -15,5 +15,8 @@ public class percobaan3methodjop {
     double lsegitiga(double a, double t){
         return (0.5*a*t);
     }
-   
+    //lingkaran
+    double lsegitiga(double r){
+        return (Math.PI*Math.pow(r, 2));
+    }
 }
