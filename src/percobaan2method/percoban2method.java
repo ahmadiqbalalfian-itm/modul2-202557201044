@@ -44,10 +44,12 @@ public class percoban2method {
 
         //menampilkan hasil operasi dari method-method sebelumnya menggunakan variabel baru yang dibuat
         System.out.println("\t-------------------------\n\n\n>>>>>>>>VOLUME BANGUN RUANG<<<<<<<<<\n");
-        System.out.println("VOLUME BOLA \t\t= " + bola);
-        System.out.println("VOLUME TABUNG \t\t= " + tabung);
-        System.out.println("VOLUME KERUCUT \t\t= " + kerucut + "\n\n");
-        System.out.println("\t>>>>>>>>BONUS<<<<<<<<<\n\nLUAS LIINGKARAN/BULAT\t= " + bulat);
+        // Output dirapikan dengan 2 angka di belakang koma
+        System.out.println("VOLUME BOLA \t\t= " + String.format("%.2f", bola));
+        System.out.println("VOLUME TABUNG \t\t= " + String.format("%.2f", tabung));
+        System.out.println("VOLUME KERUCUT \t\t= " + String.format("%.2f", kerucut));
+        System.out.println("\n>>>>>>>>> BONUS <<<<<<<<<");
+        System.out.println("LUAS LINGKARAN/ALAS\t= " + String.format("%.2f", bulat));
         
         firamasuk.close();//menutup scanner
     }
