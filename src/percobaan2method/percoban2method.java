@@ -18,10 +18,15 @@ public class percoban2method {
     
     //kita masukkan rumus-rumus untuk setiap bangun ruang
     //lingkaran lebih dulu karena basisnya
-    double l_lingkaran(double r) {
+    double l_bulat(double r) {
         double l = Math.pow(r, 2)/*pangkat*/*Math.PI/*phi*/;
         return l; //simpan luas
     }
     
-    
+    //selanjutnya kerucut
+    double vkerucut(double r, double t){
+        double l = l_bulat(r);
+        double v = l*(t/3.0);//rumusnya biar agak pendek. 3 harus dikasih koma karena double
+        return v;
+    }
 }
