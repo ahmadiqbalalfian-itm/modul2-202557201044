@@ -48,5 +48,7 @@ public class percoban2method {
         System.out.println("VOLUME TABUNG \t\t= " + tabung);
         System.out.println("VOLUME KERUCUT \t\t= " + kerucut + "\n\n");
         System.out.println("\t>>>>>>>>BONUS<<<<<<<<<\n\nLUAS LIINGKARAN/BULAT\t= " + bulat);
+        
+        firamasuk.close();//menutup scanner
     }
 }
