@@ -11,4 +11,9 @@ public class percobaan3methodjop {
     double lpp(double p, double l){
         return (p*l);
     }
+        //segitiga
+    double lsegitiga(double a, double t){
+        return (0.5*a*t);
+    }
+   
 }
