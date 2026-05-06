@@ -37,4 +37,9 @@ public class percoban2method {
         return v;//simpan volume keurucut
     }
     
+    //lanjut bola
+    double v_bola (double r){
+        double v = (4.0/3.0)/*rumus dari volume bola*/*Math.pow(r, 3)/*pangkat*/*Math.PI/*phi (lebih detail dari 3,14 dan 22/7)*/;
+        return v;//simpan volem bola
+    }
 }
