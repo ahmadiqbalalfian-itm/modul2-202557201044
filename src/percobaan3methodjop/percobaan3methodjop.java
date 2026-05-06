@@ -5,15 +5,15 @@ public class percobaan3methodjop {
     //kita awali dengan method operasi dulu
     //persegi panjang dulu
     double lpp(double p, double l){//pakai variabel p dan l dari method main
-        return (p*l); // rumus pesregi panjang
+        return (p*l); // bisa simpan langsung, ngga perlu variabel baru lagi pakai rumus pesregi panjang
     }
         //segitiga
     double lst(double a, double t){//menggunakan variabel a dan t dari method main
-        return (a*t*0.5); //rumus segitiga
+        return (a*t*0.5); //langsung aja simpan pakai rumus luas segitiga
     }
     //lingkaran
     double lbulat(double r){//meminjam r dari method main
-        return (Math.PI*Math.pow(r, 2));//rumus luas lingkaran
+        return (Math.PI*Math.pow(r, 2));//langsung simpan pakai rumus luas lingkaran
     }
     
          //kita perlu deklarasikan variable yang akan digunakan method operasi
@@ -35,6 +35,8 @@ public class percobaan3methodjop {
 
         //lanjut deklarasi varibel untuk menyimpan dan menampilkan hasil akhir
         double persegipanjang = fira.lpp(p, l);
+        double segitiga = fira.lst(a, t);
+        double lingkaran = fira.lbulat(r);
         
         
     }
