@@ -8,9 +8,10 @@ public class percoban2method {
         
         Scanner firamasuk = new Scanner(System.in);
         
-        System.out.print("Diameter Lingkarannya Berapa?\t: ");
-        double d = firamasuk.nextDouble();
+        System.out.print("Jari-jari Lingkarannya Berapa?\t: ");
+        double r = firamasuk.nextDouble();
         
-        
+        System.out.print("Tinggi Bangun Ruangnya?\t : ");
+        double t = 
     }
 }
