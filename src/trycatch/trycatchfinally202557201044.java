@@ -4,7 +4,7 @@ public class trycatchfinally202557201044 {
         int bil = 10;
         String b[]={"a","i","a"};
         try{
-            System.out.println(bil/01);
+            System.out.println(bil/0);
         }catch(ArithmeticException iq){
             System.out.println("Error Aritmatikanya");
             System.out.println(iq.getMessage());
