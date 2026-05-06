@@ -31,12 +31,12 @@ public class percoban2method {
     
     public static void main(String[] args) {//method main untuk program yang memerlukan output
         percoban2method iqbal = new percoban2method();
-        /*judulnya*/System.out.println("MENGHITUNG VOLUME BANGUN RUANG BERBASIS LINGKARAN\n1. Tabung\n2. Kerucut\n3. Bola");
+        /*judulnya*/System.out.println("<><><><><><><><><><><><><><><><><><><><><><><><><><><><>\n MENGHITUNG VOLUME BANGUN RUANG BERBASIS LINGKARAN/BULAT\n1. Tabung\n2. Kerucut\n3. Bola\n<><><><><><><><><><><><><><><><><><><><><><><><><><><><>\n\n");
         /*import scanner*/Scanner firamasuk = new Scanner(System.in);
         //deklarasi inti, bahan utama dari bangun ruang basis lingkaran
-        System.out.print("Jari-jari Lingkarannya Berapa?\t: ");
+        System.out.print("-------------------------\nJari-jari Lingkarannya Berapa?\t: ");
         double r = firamasuk.nextDouble();
-        System.out.print("Tinggi Bangun Ruangnya?\t : ");
+        System.out.print("Tinggi Bangun Ruangnya?\t\t: ");
         double t = firamasuk.nextDouble();
 
         //kita perlu deklarasikan variabel baru, kemudian diberikan nilai dari method sebelumnya
@@ -46,11 +46,11 @@ public class percoban2method {
         double kerucut = iqbal.vkerucut(r, t); //tampilkan kerucut, dengan nilai volume kerucut dari method v_kerucut
 
         //menampilkan hasil operasi dari method-method sebelumnya menggunakan variabel baru yang dibuat
-        System.out.println(">>>>>>>>VOLUME BANGUN RUANG<<<<<<<<<");
-        System.out.println("VOLUME BOLA = " + bola);
-        System.out.println("VOLUME TABUNG = " + tabung);
-        System.out.println("VOLUME KERUCUT = " + kerucut);
+        System.out.println("-------------------------\n\n\n>>>>>>>>VOLUME BANGUN RUANG<<<<<<<<<\n");
+        System.out.println("VOLUME BOLA \t\t= " + bola);
+        System.out.println("VOLUME TABUNG \t\t= " + tabung);
+        System.out.println("VOLUME KERUCUT \t\t= " + kerucut+"\n\n>>>>>>>>BONUS<<<<<<<<<");
         
-        System.out.println("Bonus luas lingkaran= " +bulat);
+        System.out.println("LUAS LIINGKARAN/BULAT\t= " +bulat);
     }
 }
